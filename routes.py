@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/financial")
 def getting_financials():
-    return reports.financial
+    return reports.finance
 
 
 @app.route("/performance")
